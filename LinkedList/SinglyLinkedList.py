@@ -82,18 +82,18 @@ class SllIterator:
 
 
 # driver code
-a = SinglyLinkedList()
-print("Is list is empty -> ", a.isEmpty())
-a.insert_at_first(5)
-a.insert_at_first(6)
-a.insert_at_last(8)
-a.insert_at_last(10)
-a.inser_after(a.search_node(10), 7)
-a.delete_item(a.search_node(6))
-print(a.search_node(10).data)
-a.travesing()
-
-print("Is list is empty -> ", a.isEmpty())
-print()
-for x in a:
-    print(x, end=' ')
+# a = SinglyLinkedList()
+# print("Is list is empty -> ", a.isEmpty())
+# a.insert_at_first(5)
+# a.insert_at_first(6)
+# a.insert_at_last(8)
+# a.insert_at_last(10)
+# a.inser_after(a.search_node(10), 7)
+# a.delete_item(a.search_node(6))
+# print(a.search_node(10).data)
+# a.travesing()
+#
+# print("Is list is empty -> ", a.isEmpty())
+# print()
+# for x in a:
+#     print(x, end=' ')
