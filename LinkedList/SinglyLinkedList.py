@@ -17,6 +17,9 @@ class SinglyLinkedList:
 
     def insert_at_last(self, data):
         avail = node(data)
+        if self.start is None:
+            self.start = avail
+            return
         temp = self.start
         while temp.next is not None:
             temp = temp.next
